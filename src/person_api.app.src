@@ -1,0 +1,20 @@
+{application, person_api,
+ [{description, "An OTP application"},
+  {vsn, "0.1.0"},
+  {registered, []},
+  {mod, { person_api_app, []}},
+  {applications,
+   [kernel,
+    stdlib,
+    jsx,
+    cowboy,
+    trails,
+    cowboy_swagger    
+   ]},
+  {env,[]},
+  {modules, []},
+
+  {maintainers, []},
+  {licenses, ["Apache 2.0"]},
+  {links, []}
+ ]}.

@@ -1,0 +1,6 @@
+-name ${NODE_NAME}
+
+-setcookie person_api_cookie
+
++K true
++A30
