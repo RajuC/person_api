@@ -1,4 +1,4 @@
--module(person_put_handler).
+-module (person_swagger).
 -export ([start/0]).
 
 start() ->
