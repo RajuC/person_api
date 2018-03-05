@@ -40,7 +40,7 @@ allowed_methods(Req, State) ->
 
 
 handle_get(Req, State) ->
-        case person:details(Req) of
+        case person:get_details(Req) of
             {ok, Data}         ->
                 {Data, Req, State};
             {error, ReasonBin}    ->
